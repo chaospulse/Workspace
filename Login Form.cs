@@ -22,7 +22,6 @@ namespace Phone_Book
             else
                 PasswordTextBox.UseSystemPasswordChar = true;
         }
-
         private void bExit_Click(object sender, EventArgs e)  { Application.Exit(); }
         
         private void bLogin_Click(object sender, EventArgs e)
