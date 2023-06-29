@@ -75,7 +75,6 @@ namespace Phone_Book
             pictureBox1.Image = lf.pictureBox1.Image;
             labelUserName.Text = Phone_Book.Properties.Settings.Default.login_first_name;
         }
-
         private void bCalendar_Click(object sender, EventArgs e)
         {
             Calendar_Form cf = new Calendar_Form();
@@ -109,9 +108,6 @@ namespace Phone_Book
             ul.MdiParent = this;
             ul.Show();
         }
-
-     
-
         private void b_Logout_Click(object sender, EventArgs e)
         {
             Login_Form lf = new Login_Form();

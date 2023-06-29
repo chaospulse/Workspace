@@ -50,7 +50,7 @@
             // 
             this.label_date.BackColor = System.Drawing.Color.Transparent;
             this.label_date.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_date.Location = new System.Drawing.Point(68, 136);
+            this.label_date.Location = new System.Drawing.Point(68, 137);
             this.label_date.Name = "label_date";
             this.label_date.Size = new System.Drawing.Size(259, 59);
             this.label_date.TabIndex = 3;

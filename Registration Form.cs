@@ -14,7 +14,14 @@ namespace Phone_Book
     public partial class Registration_Form : Form
     {
         public Registration_Form() { InitializeComponent(); }
-        
+
+        private void bNewData_Click(object sender, EventArgs e)
+        {
+            bSaveChanges.Enabled = true;
+            bNewData.Enabled = false;
+            bNewData2.Enabled = false;
+            groupBoxInformation.Enabled = true;
+        }
         private void bSaveChanges_Click(object sender, EventArgs e)
         {
             if (first_NameTextBox.Text == "" || last_NameTextBox.Text == "" || passwordTextBox.Text == "" || telephoneTextBox.Text == "" || emailTextBox.Text == "" || addressTextBox.Text == "" || commentTextBox.Text == "")
@@ -64,18 +71,8 @@ namespace Phone_Book
             
             sql.Close();
             Dispose();
-
-            Login_Form lf = new Login_Form();
-            lf.Show();
         }
-
-        private void bNewData_Click(object sender, EventArgs e)
-        {
-            bSaveChanges.Enabled = true;
-            bNewData.Enabled = false;
-            bNewData2.Enabled = false;
-            groupBoxInformation.Enabled = true;
-        }
+        
         private void bNewData2_Click(object sender, EventArgs e)
         {
             this.phone_Book_TableBindingSource.AddNew();
@@ -84,29 +81,6 @@ namespace Phone_Book
             bNewData.Enabled = false;
             groupBoxInformation.Enabled = true;
         }
-
-        private void phone_Book_TableBindingNavigatorSaveItem_Click(object sender, EventArgs e)
-        {
-            this.Validate();
-            this.phone_Book_TableBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dataSet1);
-        }
-        private void Registration_Form_Load(object sender, EventArgs e)
-        {
-            this.phone_Book_TableAdapter.SetData(this.dataSet1.Phone_Book_Table);
-            foreach (Control c in groupBoxInformation.Controls)
-            {
-                if (c is TextBox)
-                    c.ResetText();
-            }
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-        }
-        private void bBrowse_Click(object sender, EventArgs e)
-        {
-            this.openFileDialog1.ShowDialog();
-            pictureBox1.ImageLocation = openFileDialog1.FileName;
-        }
-
         private void bSave2_Click(object sender, EventArgs e)
         {
             if (first_NameTextBox.Text == "" || last_NameTextBox.Text == "" || passwordTextBox.Text == "" || telephoneTextBox.Text == "" || emailTextBox.Text == "" || addressTextBox.Text == "" || commentTextBox.Text == "")
@@ -137,6 +111,28 @@ namespace Phone_Book
             groupBoxInformation.Enabled = false;
             MessageBox.Show("Succses!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Dispose();
+        }
+
+        private void phone_Book_TableBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.phone_Book_TableBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.dataSet1);
+        }
+        private void Registration_Form_Load(object sender, EventArgs e)
+        {
+            this.phone_Book_TableAdapter.SetData(this.dataSet1.Phone_Book_Table);
+            foreach (Control c in groupBoxInformation.Controls)
+            {
+                if (c is TextBox)
+                    c.ResetText();
+            }
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
+        private void bBrowse_Click(object sender, EventArgs e)
+        {
+            this.openFileDialog1.ShowDialog();
+            pictureBox1.ImageLocation = openFileDialog1.FileName;
         }
     }
 }

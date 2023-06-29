@@ -43,14 +43,7 @@ namespace Phone_Book
         enum Months { January = 1, February, March, April, May, June, July, August, September, October, November, December };
         private void timer1_Tick(object sender, EventArgs e) { label_time.Text = DateTime.Now.ToString("HH:mm:ss"); }
         private void Calendar_Form_FormClosed(object sender, FormClosedEventArgs e) { timer1.Stop(); }
-        private void Calendar_Form_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label_month_Click(object sender, EventArgs e)
-        {
-
-        }
+        private void Calendar_Form_Load(object sender, EventArgs e) { }
+        private void label_month_Click(object sender, EventArgs e)  { }
     }
 }
