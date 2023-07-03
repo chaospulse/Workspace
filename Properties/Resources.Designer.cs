@@ -83,27 +83,6 @@ namespace Phone_Book.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Anime_Magicians__Zhkahogigzkh__Anime_Artist_tokisaki_asaba_4146301 {
-            get {
-                object obj = ResourceManager.GetObject("Anime-Magicians-(Zhkahogigzkh)-Anime-Artist-tokisaki-asaba-4146301", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ANIME_PICTURES_NET___655864_4960x3507_niliu_chahui_tokisaki_mio_qys3_single_long_hair_looking_at_viewer {
-            get {
-                object obj = ResourceManager.GetObject("ANIME-PICTURES.NET_-_655864-4960x3507-niliu+chahui-tokisaki+mio-qys3-single-long+" +
-                        "hair-looking+at+viewer", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap ANIME_PICTURES_NET___743456_5500x3300_niliu_chahui_tokisaki_mio_qys3_single_long_hair_looking_at_viewer {
             get {
                 object obj = ResourceManager.GetObject("ANIME-PICTURES.NET_-_743456-5500x3300-niliu+chahui-tokisaki+mio-qys3-single-long+" +
@@ -148,36 +127,6 @@ namespace Phone_Book.Properties {
         internal static System.Drawing.Bitmap cancel_37_32 {
             get {
                 object obj = ResourceManager.GetObject("cancel-37-32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cc4a0075d5f197e96fd2dbeaf7e4eaf9_raw {
-            get {
-                object obj = ResourceManager.GetObject("cc4a0075d5f197e96fd2dbeaf7e4eaf9_raw", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cd402bc2ed79b24a86211aed61944076b4d323ea491bf0509a1516f8859145c5 {
-            get {
-                object obj = ResourceManager.GetObject("cd402bc2ed79b24a86211aed61944076b4d323ea491bf0509a1516f8859145c5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap d017abd3e468c2abbf1b7f32e7f29b554471fd13da9fb8d89557bfd4662a926f {
-            get {
-                object obj = ResourceManager.GetObject("d017abd3e468c2abbf1b7f32e7f29b554471fd13da9fb8d89557bfd4662a926f", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -308,66 +257,6 @@ namespace Phone_Book.Properties {
         internal static System.Drawing.Bitmap funnel_36_322 {
             get {
                 object obj = ResourceManager.GetObject("funnel-36-322", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Gva8f {
-            get {
-                object obj = ResourceManager.GetObject("Gva8f", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap haikyuu_anime {
-            get {
-                object obj = ResourceManager.GetObject("haikyuu-anime", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap IMG_5708 {
-            get {
-                object obj = ResourceManager.GetObject("IMG_5708", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap IMG_57081 {
-            get {
-                object obj = ResourceManager.GetObject("IMG_57081", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap IMG_57082 {
-            get {
-                object obj = ResourceManager.GetObject("IMG_57082", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap IMG_57083 {
-            get {
-                object obj = ResourceManager.GetObject("IMG_57083", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -515,16 +404,6 @@ namespace Phone_Book.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap lovepik_science_and_technology_business_internet_background_image_400134658 {
-            get {
-                object obj = ResourceManager.GetObject("lovepik-science-and-technology-business-internet-background-image_400134658", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap media_color_1_player_32 {
             get {
                 object obj = ResourceManager.GetObject("media-color-1_player-32", resourceCulture);
@@ -538,16 +417,6 @@ namespace Phone_Book.Properties {
         internal static System.Drawing.Bitmap media_color_1_player_321 {
             get {
                 object obj = ResourceManager.GetObject("media-color-1_player-321", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Mr148 {
-            get {
-                object obj = ResourceManager.GetObject("Mr148", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -638,16 +507,6 @@ namespace Phone_Book.Properties {
         internal static System.Drawing.Bitmap settings_122_32 {
             get {
                 object obj = ResourceManager.GetObject("settings-122-32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap загружено {
-            get {
-                object obj = ResourceManager.GetObject("загружено", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
