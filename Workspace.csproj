@@ -173,27 +173,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\IMG_5708.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\haikyuu-anime.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Gva8f.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Mr148.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lovepik-science-and-technology-business-internet-background-image_400134658.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ANIME-PICTURES.NET_-_655864-4960x3507-niliu+chahui-tokisaki+mio-qys3-single-long+hair-looking+at+viewer.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cd402bc2ed79b24a86211aed61944076b4d323ea491bf0509a1516f8859145c5.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\ANIME-PICTURES.NET_-_743456-5500x3300-niliu+chahui-tokisaki+mio-qys3-single-long+hair-looking+at+viewer.png" />
   </ItemGroup>
   <ItemGroup>
@@ -207,15 +186,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\folder-615-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\загружено.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\d017abd3e468c2abbf1b7f32e7f29b554471fd13da9fb8d89557bfd4662a926f.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Anime-Magicians-%28Zhkahogigzkh%29-Anime-Artist-tokisaki-asaba-4146301.png" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="AxWMPLib">
@@ -237,19 +207,7 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cc4a0075d5f197e96fd2dbeaf7e4eaf9_raw.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\save-37-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\IMG_57081.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\IMG_57082.JPG" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\IMG_57083.JPG" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\istockphoto-584748534-612x612.jpg" />
